@@ -15,6 +15,8 @@ public class test {
         System.out.println("何乗にしたい？");
         int nanjo = scan.nextInt();
 
+        scan.close();
+
         
         for (int i=1; i<=nanjo; i++){
             num = num.multiply(BigInteger.valueOf(ruijo));
